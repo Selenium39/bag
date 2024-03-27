@@ -11,6 +11,7 @@ program
 program
   .command('add <url>')
   .description('通过网页链接添加小说')
+  .option('-c, --concurrency <number>', '指定下载的并发数', '1') // 默认并发数设置为1
   .action(addNovel);
 
 program
