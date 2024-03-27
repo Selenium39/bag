@@ -1,8 +1,7 @@
+#!/usr/bin/env node
 const { Command } = require('commander');
 const { addNovel,listNovel,readNovel } = require('./lib/novel');
 const program = new Command();
-
-// node index.js add https://www.xbiqugu.info/114/114545/ 
 
 program
   .version('0.1.0')
@@ -11,7 +10,7 @@ program
 program
   .command('add <url>')
   .description('通过网页链接添加小说')
-  .option('-c, --concurrency <number>', '指定下载的并发数', '1') // 默认并发数设置为1
+  .option('-c, --concurrency <number>', '指定下载的并发数', '1') 
   .action(addNovel);
 
 program
