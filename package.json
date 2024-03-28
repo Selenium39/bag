@@ -1,7 +1,7 @@
 {
   "name": "bqg",
   "version": "1.0.1",
-  "description": "笔趣阁小说命令行阅读器",
+  "description": "bqg: 笔趣阁小说命令行阅读器",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Selenium39/bqg.git"

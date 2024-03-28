@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 const { Command } = require('commander');
 const { addNovel,listNovel,readNovel } = require('./lib/novel');
+const pkg = require('./package.json') 
 const program = new Command();
 
 program
-  .version('0.1.0')
-  .description('bqg: 笔趣阁小说命令行阅读器');
+  .version(pkg.version)
+  .description(pkg.description);
 
 program
   .command('add <url>')
