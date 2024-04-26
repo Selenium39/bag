@@ -24,7 +24,7 @@ npm install -g bqg
 
 ### 添加小说
 
-要添加一本小说，请使用以下命令，并将`<url>`替换为目标小说的页面URL：
+要添加一本小说，请使用以下命令，并将`<url>`替换为目标小说的页面URL(http://www.xbiqugu.net/57/57792/)：
 
 ```bash
 bqg add <url>
